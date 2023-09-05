@@ -1,7 +1,7 @@
 const needEnvs = [];
 const processEnv = process.env;
 const config = {
-  DB_URL: processEnv.DB_URL || 'mysql://root:root@127.0.0.1:3306/rx',
+  DB_URL: processEnv.DB_URL || 'mysql://root:root@192.168.222.130:3306/renxin',
   REDIS_URL: processEnv.REDIS_URL || 'redis://192.168.222.130:6379/0',
   PORT: processEnv.PORT,
   LOG_LEVEL: processEnv.LOG_LEVEL,
